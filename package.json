@@ -19,5 +19,9 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@types/chai": "^4.3.17",
+    "chai": "4.5.0"
   }
 }
