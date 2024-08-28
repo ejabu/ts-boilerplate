@@ -3,7 +3,9 @@
 
 ```shell
 npm init -y
-npm install typescript ts-node nodemon --save-dev
+npm install typescript uuid
+npm install --save-dev typescript ts-node nodemon
+npm install --save-dev @types/node
 npm install --save-dev jest ts-jest @types/jest
 
 npx tsc --init
