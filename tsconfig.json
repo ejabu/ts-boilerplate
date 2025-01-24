@@ -5,15 +5,18 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-
     "outDir": "./dist",
     "rootDir": "./src",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@utils/*": ["utils/*"],
-    }
+      "@src/*": ["src/*"],
+    },
+    "types": [
+      "vitest"
+    ],
+    "moduleResolution": "node",
   },
   "include": [
-    "src"
+    "src",
   ]
 }

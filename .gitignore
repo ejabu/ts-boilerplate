@@ -8,3 +8,7 @@ dist/
 **/*.heapsnapshot
 
 .DS_Store
+
+## vitest
+
+coverage/
