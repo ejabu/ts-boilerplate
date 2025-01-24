@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npx nodemon",
+    "interactive": "node -r tsconfig-paths/register -r ts-node/register src/cmd/interactive.ts",
+    "start": "node -r tsconfig-paths/register -r ts-node/register dist/cmd/interactive.js",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
