@@ -1,9 +1,9 @@
-import { writeHeapSnapshot } from "v8";
+import { writeHeapSnapshot } from 'v8';
 
 export const dumpSnapshot = () => {
   if (false) {
     console.log('----- Skip snapshot --------');
-    return
+    return;
   }
   console.log('----- Taking snapshot --------');
   const fileName = writeHeapSnapshot();
